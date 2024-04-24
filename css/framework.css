@@ -1,0 +1,490 @@
+:root {
+  --main-Color: #26a6ef;
+  --secondary-Color: #2082bb;
+  --main-Transition: all 0.9s ease-in-out;
+}
+/* Start box  */
+.d-inline {
+  display: inline;
+}
+.d-flex {
+  display: flex;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.f-grow {
+  flex-grow: 1;
+}
+.d-grid {
+  display: grid;
+}
+.gap-10 {
+  gap: 10px;
+}
+.gap-20 {
+  gap: 20px;
+}
+
+.align-center {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+.d-block {
+  display: block;
+}
+.flex-50 {
+  flex-basis: 50%;
+}
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+  .mobile-flex {
+    flex-direction: column;
+  }
+}
+
+/* End box  */
+/* Start colors */
+.c-black {
+  color: black;
+}
+.c-grey {
+  color: var(--grey-color);
+}
+.c-white {
+  color: white;
+}
+.c-blue {
+  color: var(--blue-color);
+}
+.c-main {
+  color: var(--main-Color);
+}
+.c-red {
+  color: var(--red-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.bg-eee {
+  background-color: #eee;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-smoke {
+  background-color: whitesmoke;
+}
+.bg-ddd {
+  background-color: #ddd;
+}
+.bg-blue {
+  background-color: var(--blue-color);
+}
+.bg-main {
+  background-color: var(--main-Color);
+}
+.bg-secondary {
+  background-color: var(--secondary-Color);
+}
+/* End colors */
+/* start padding + margin  */
+.p-5 {
+  padding: 5px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.pt-0 {
+  padding-top: 0;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pl-5 {
+  padding-left: 5px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pr-5 {
+  padding-right: 5px;
+}
+.m-10 {
+  margin: 20px;
+}
+.m-20 {
+  margin: 20px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+/* End padding + margin  */
+/* Start width + height  */
+.w-full {
+  width: 100%;
+}
+.w-fit {
+  width: fit-content;
+}
+/* End width + height  */
+/* Start borders */
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+.rad-half {
+  border-radius: 50%;
+}
+.b-none {
+  border: none;
+}
+
+/* End borders */
+
+/* Start position  */
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+/* End position  */
+
+/* Start fonts  */
+.txt-c {
+  text-align: center;
+}
+.fs-10 {
+  font-size: 10px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fs-48 {
+  font-size: 48px;
+}
+@media (max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+  .txt-l-mobile {
+    text-align: left;
+  }
+}
+.fw-normal {
+  font-weight: normal;
+}
+.fw-bold {
+  font-weight: bold;
+}
+/* End fonts  */
+/* Start components  */
+.more {
+  bottom: 20px;
+  right: 20px;
+  font-size: 14px;
+  position: absolute;
+  padding: 5px;
+  color: #aebbff;
+}
+.arrow-45 {
+  top: 20px;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.active {
+  background-color: var(--secondary-color);
+  border-radius: 50px;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .hide-mob {
+    display: none;
+  }
+  .flex-mob {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.btn-shape {
+  padding: 8px 16px;
+  background-color: var(--main-Color);
+  color: white;
+  border-radius: 50px;
+  width: fit-content;
+}
+.btn-shape:hover {
+  background-color: var(--secondary-Color);
+}
+.circle-50 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.roll-in-left {
+  -webkit-animation: roll-in-left 0.6s ease-out 0.2s both;
+  animation: roll-in-left 0.6s ease-out 2 s both;
+}
+.roll-in-bottom {
+  -webkit-animation: roll-in-bottom 0.6s ease-out 0.6s both;
+  animation: roll-in-bottom 0.6s ease-out both;
+}
+.roll-in-right {
+  -webkit-animation: roll-in-right 0.6s ease-out 0.4s both;
+  animation: roll-in-right 0.6s ease-out 4s both;
+}
+/* start cursor pointer  */
+.cursor-p {
+  cursor: pointer;
+}
+/* end cursor pointer  */
+/* start rounded  */
+.round-40 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.round-100 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.round-arrow {
+  width: 25px;
+  height: 25px;
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.pulse {
+  animation: pulse 2s ease 0s 1 normal forwards paused;
+  -webkit-animation: pulse 2s ease 0s 1 normal forwards paused;
+}
+.pulse:hover {
+  animation: pulse 2s ease 0s 4 normal forwards;
+  -webkit-animation: pulse 2s ease 0s 4 normal forwards;
+}
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+}
+.flash:hover {
+  animation-play-state: running;
+}
+
+.focus-in-contract-bck {
+  animation: focus-in-contract-bck 0.9s ease-in-out 1 both forwards paused;
+  -webkit-animation: focus-in-contract-bck 0.9s ease-in-out 1 both forwards
+    paused;
+}
+.focus-in-contract-bck:hover {
+  animation: focus-in-contract-bck 0.9s ease-in-out 1 forwards running;
+  -webkit-animation: focus-in-contract-bck 0.9s ease-in-out 1 forwards running;
+}
+/* end rounded  */
+/* End components  */
+/* start Animation */
+@keyframes pulse {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+  }
+
+  10% {
+    animation-timing-function: ease-in;
+    transform: scale(0.91);
+    -webkit-transform: scale(0.91);
+    -moz-transform: scale(0.91);
+    -ms-transform: scale(0.91);
+    -o-transform: scale(0.91);
+  }
+
+  17% {
+    animation-timing-function: ease-out;
+    transform: scale(0.98);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: scale(0.87);
+  }
+
+  45% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+}
+/* flash animation  */
+@-webkit-keyframes flash {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2024-4-18 13:35:19
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation focus-in-contract-bck
+ * ----------------------------------------
+ */
+@-webkit-keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+    transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+    transform: translateZ(12px);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(300px);
+    transform: translateZ(300px);
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(12px);
+    transform: translateZ(12px);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+/* End Animation */
